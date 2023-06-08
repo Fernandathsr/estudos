@@ -1,0 +1,92 @@
+* {
+    margin: auto;
+    padding: 2px;
+}
+
+body {
+    background-color: #c5c5c5;
+}
+.titulo {
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #050000;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.contato {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #050000 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato input {
+    width: 15em;
+    padding: 7px;
+    border: 1px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contato #rotas {
+    width: 14em;
+    padding:5px;
+    border: 1px;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+.times h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    justify-content: center;
+    
+
+ }
+
+.times {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #050000 ;
+    padding: 1px;
+  
+}
+
+button {
+  background-color: #4CAF50; /* Cor de fundo */
+  border: none; /* Sem borda */
+  color: white; /* Cor do texto */
+  padding: 10px 20px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento de texto centralizado */
+  text-decoration: none; /* Sem decoração de texto */
+  display: inline-block; /* Exibição em linha */
+  font-size: 16px; /* Tamanho da fonte */
+  cursor: pointer; /* Cursor do mouse em forma de mão */
+  border-radius: 4px; /* Borda arredondada */
+  transition-duration: 0.4s; /* Duração da transição */
+  display: flex;
+  justify-content: center;
+}
+
+label {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 27em;
+    padding: 7px;
+    border: 1px;
+    border-radius: 5px;
+    font-size: 16px;
+}
